@@ -210,8 +210,8 @@
       <details>
         <summary>Custom Set</summary>
         <div>
-          <input placeholder="slug" x-model="slug" />
-          <small>Slug is random id.</small>
+          <input placeholder="随机" x-model="slug" />
+          <small>默认为随机.</small>
         </div>
       </details>
       <button :class="{ loading }" :disabled="loading || isValidated()" @click="submit($refs, $nextTick)">Shorten</button>
